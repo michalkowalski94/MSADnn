@@ -1,0 +1,9 @@
+keras_darknet_yolo3/__pycache__/*
+keras_darknet_yolo3/model_data/weights/*
+keras_darknet_yolo3/yolov3.weights
+keras_darknet_yolo3/darknet53.weights
+keras_darknet_yolo3/darknet.cfg
+keras_darknet_yolo3/yolov3.cfg
+keras_darknet_yolo3/model_data/yolo.h5
+keras_darknet_yolo3/model_data/__pychache__/*
+keras_darknet_yolo3/model_data/1760weights.h5
