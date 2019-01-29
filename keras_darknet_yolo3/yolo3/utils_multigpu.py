@@ -54,8 +54,6 @@ def get_random_data(annotation_line, input_shape, random=True, max_boxes=20, jit
             new_image = Image.new('RGB', (w,h), (128,128,128))
             new_image.paste(image, (dx, dy))
             image_data = np.array(new_image)/255.
-            image_data = image_data[:,:,0]
-            image_data = np.expand_dims(image_data,2)
 
         # correct boxes
         box_data = np.zeros((max_boxes,5))
