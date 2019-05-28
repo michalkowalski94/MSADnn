@@ -1,8 +1,7 @@
 # MSADnn
-Mammography Screening Abnormality Detection with neural networks\n
-Micha³ Kowalski's master project\n
-Molecular Biotechnology Msc programme\n
-Jagiellonian University\n
+Mammography Screening Abnormality Detection with neural networks.
+Michal Kowalski's master project for
+Molecular Biotechnology Msc programme at Jagiellonian University.
 
 
 All of models were trained on DDSM dataset, prepared with [ddsm_tools](https://github.com/fjeg/ddsm_tools) mentioned in [CBIS-DDSM publication](https://www.nature.com/articles/sdata2017177) and own code posted as [dataset_utils]().
