@@ -1,0 +1,3 @@
+Currently the DDSM dataset is not available for public anymore.
+If You want to download dataset, please visit http://www.eng.usf.edu/cvprg/Mammography/Database.html
+and contact  ddsm@bigpine.csee.usf.edu.

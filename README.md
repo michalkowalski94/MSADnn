@@ -1,9 +1,16 @@
 # MSADnn
-Mammography Screening Abnormality Detection with neural networks 
+Mammography Screening Abnormality Detection with neural networks
+Micha³ Kowalski's master project
+Molecular Biotechnology Msc programme
+Jagiellonian University
+
+
 All of models were trained on DDSM dataset, prepared with [ddsm_tools](https://github.com/fjeg/ddsm_tools) mentioned in [CBIS-DDSM publication](https://www.nature.com/articles/sdata2017177) and own code posted as [dataset_utils]().
 ## Dataset preparation utils
-TO PUSH
-## Keras(Tensofrlow backend) abnormality detector
+
+## Keras(Tensofrlow backend) Tiny YOLO abnormality detector code
 Whole architecture is based on [qqweee's](https://github.com/qqwweee/keras-yolo3) implementation with slight changes
 ## Weights for models
-[Keras Yolo v3 1760x1760 images](https://drive.google.com/open?id=1ao27Ba1vGp23pZZybotnbkG5D7BjC84N)
+There are six Tiny-YOLO models trained for (two models for one task)
+Input shapes: 3424x2432px and 4480x4480px
+Tasks: Detection of three classes (normal, calcification, mass), detection of two classes (mass, calcification), detection of abnormalities.

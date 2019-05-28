@@ -1,0 +1,7 @@
+To run a benchmark mode on model one must:
+1. Establish a YOLO class default parameters by using flags or directly in code (line 42 to 46)
+2. Run detect.py in benchmark mode by typing python3 detect.py --benchmark in console terminal
+3. Follow directions displayed on console terminal
+
+Files created by this script will be prepared for further analysis.
+Script also produces a output images to see with bare eyes how good or bad the performance is.
